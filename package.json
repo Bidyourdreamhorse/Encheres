@@ -1,0 +1,11 @@
+{
+  "name": "bidyourdreamhorse",
+  "private": true,
+  "workspaces": ["apps/*","packages/*"],
+  "scripts": {
+    "dev:app": "cd apps/app && npx expo start",
+    "dev:site": "cd apps/site && next dev -p 3001",
+    "build:web": "cd apps/app && npx expo export -p web",
+    "build:site": "cd apps/site && next build"
+  }
+}

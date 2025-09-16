@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "BidYourDreamHorse",
+    "slug": "bidyourdreamhorse",
+    "version": "0.1.0",
+    "scheme": "bydh",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": { "image": "./assets/splash.png", "resizeMode": "contain", "backgroundColor": "#000000" },
+    "android": { "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#000000" } },
+    "web": { "bundler": "metro" }
+  }
+}

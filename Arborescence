@@ -1,0 +1,24 @@
+bidyourdreamhorse/
+├─ app.json
+├─ package.json
+├─ tsconfig.json
+├─ index.js
+├─ .env.example
+├─ src/                  # code Expo/React Native existant
+├─ assets/               # icônes + logos (noir & or)
+│  ├─ icon.png
+│  ├─ splash.png
+│  └─ brand/
+│     ├─ logo-bydh-gold-on-black.png
+│     └─ logo-bydh-black-on-gold.png
+└─ supabase/
+   ├─ schema.sql
+   ├─ triggers.sql
+   ├─ functions/
+   │  ├─ get_highest_bid.sql
+   │  └─ finalize_ended_auctions.sql
+   └─ edge-functions/
+      ├─ auction-finalizer/
+      │  └─ index.ts
+      └─ create-checkout/
+         └─ index.ts
