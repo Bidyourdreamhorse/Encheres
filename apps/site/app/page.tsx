@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1 style={{padding:"24px"}}>Bienvenue sur BidYourDreamHorse ✅</h1>;
+  return <main style={{padding:24}}><h1>Accueil ✅</h1></main>;
 }
